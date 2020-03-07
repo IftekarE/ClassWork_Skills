@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <head>
-    <script src="classwork.js"></script>
+    <script src="classworkv2.js"></script>
 </head>
 <body>
-    <button onclick="check();">Click me</button>
+    <form name="form1" action="#"><!--this creates an input box-->
+        <input type='text' name='text1' id= "nameuser"/><!--this assigns the input a type and name-->
+    </form>
+    <textarea id="display" style="width:167px;height:250px"></textarea>
+</br>
+    <button onclick="setto(document.form1.text1);">Click me</button>
 </body>
